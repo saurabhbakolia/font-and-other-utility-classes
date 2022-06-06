@@ -1,7 +1,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      spacing:{
+        13 : "3.25rem"
+      }
+    },
   },
   plugins: [],
 }
+  
